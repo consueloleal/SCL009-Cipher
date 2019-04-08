@@ -1,15 +1,46 @@
+<!--crear estrucctura html-->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" type="text/css" href="cipherStyle.css">
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <!--crear texto de bienvenida-->
+    <div id="Welcome"> 
+      <p id="welcomeMessage">Bienvenido </p> 
+      <form action="" name="registro">
+        <span class="userName">Nombre:</span> <input id="myName" type="text" placeholder="Nombre">
+      </form>
+      </br>
+      <button id="loginButton">Ingresar</button>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+
+    <div id="mainContainer">
+
+      <div id="textToCipher">
+        <input id="cifrarMensaje" type="text" placeholder="Mensaje a cifrar">
+      </div>
+
+      <div id="buttonPanel">
+        <button class="panelButtons" id="cipherButton" >Cifrar</button> 
+        <input id="offsetText" class="panelButtons" type="text" name="" placeholder="Ingresar número de desplazamientos"> 
+        <button class="panelButtons" id="descifrarButton">Descifrar</button>
+      </div>
+      
+      <div id="textToDecipher">
+        <input id="mensajeCifrado"type="text" name="" placeholder="Mensaje cifrado">
+      </div>
+
+      <div id="cleanButton">
+        <button onclick="clean()">Limpiar</button>
+      </div>
+
+    </div>
+    
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="cipher.js"></script>
   </body>
 </html>
+

@@ -1,1 +1,73 @@
-/* Acá va tu código */
+body{
+	text-align: center;
+	background-image: url(https://www.ecuavisa.com/sites/default/files/fotos/2017/06/21/copia_examenes.jpg); 
+	background-size: cover;
+}
+
+
+#welcome{
+	font-size: 5em;
+}
+
+#mainContainer{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#textToCipher{
+	margin: 0 auto;
+	width: 30%;
+	display: inline-block;
+}
+
+#buttonPanel{
+	margin: 0 auto;
+	width: 20%;
+	display: inline-block;
+}
+
+#textToDecipher{
+	margin: 0 auto;
+	width: 30%;
+	display: inline-block;
+}
+
+.panelButtons{
+	display: block;
+	margin: 10px;
+}
+
+#cifrarMensaje{
+  width: 75%;
+  height:8em;
+  border-color:black;
+  align-self: center; 
+}
+
+#offsetNumber{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#desplazamiento{  
+  width: 2.3em;
+  height: 2.3em;
+  border-color: black; 
+  align-self: center; 
+}
+
+p{
+	font-size: 2.2em;
+	color:black;
+}
+
+#mensajeCifrado{
+	width: 75%;
+  height:8em;
+	border-color:black;
+	align-self: center; 
+}
+
+.userName{
+	font-size: 2em;
+}/* Acá va tu código */
