@@ -33,7 +33,7 @@ body{
 }
 
 .panelButtons{
-	display: block;
+	display: inline-block;
 	margin: 10px;
 }
 
@@ -57,15 +57,23 @@ body{
 }
 
 p{
-	font-size: 2.2em;
+	font-size: 1.2em;
 	color:black;
+}
+
+span{
+	font-weight: bold;
 }
 
 #mensajeCifrado{
 	width: 75%;
-  height:8em;
+  	height:8em;
 	border-color:black;
 	align-self: center; 
+}
+
+#offsetText{
+	min-width: 85%;
 }
 
 .userName{
