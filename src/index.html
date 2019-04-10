@@ -4,37 +4,34 @@
   <head>
     <meta charset="utf-8">
     <title>Cifrado Cesar</title>
-    <link rel="stylesheet" type="text/css" href="cipherStyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <!--crear texto de bienvenida-->
     <div id="Welcome"> 
-      <p id="welcomeMessage">Bienvenido </p> 
-      <form action="" name="registro">
-        <span class="userName">Nombre:</span> <input id="myName" type="text" placeholder="Nombre">
-      </form>
-      </br>
-      <button id="loginButton">Ingresar</button>
+      <h2 id="welcomeMessage">Bienvenido al CopionCesar, aquí podrás cifrar y decifrar las respuestas de tus exámenes.</h4>
+
+      <span>INSTRUCCIONES:</span><p>Para empezar ingresa tu mensaje a cifrar o descifrar en el campo de texto a la izquierda o derecha respectivamente, y luego el número de deplazamientos en el campo de texto que está al centro de la página, por último presiona el botón cifrar o decifrar.</p> 
     </div>
 
     <div id="mainContainer">
-
       <div id="textToCipher">
-        <input id="cifrarMensaje" type="text" placeholder="Mensaje a cifrar">
+        <input id="cifrarMensaje" type="text" placeholder="Ingresar mensaje a cifrar">
       </div>
 
       <div id="buttonPanel">
-        <button class="panelButtons" id="cipherButton" >Cifrar</button> 
-        <input id="offsetText" class="panelButtons" type="text" name="" placeholder="Ingresar número de desplazamientos"> 
+        <span>Número de desplazamientos:</span>
+        <input id="offsetText" class="panelButtons" type="text" name="" placeholder="Ejemplo: 90"> 
+        <button class="panelButtons" id="cipherButton" >Cifrar</button>
         <button class="panelButtons" id="descifrarButton">Descifrar</button>
       </div>
       
       <div id="textToDecipher">
-        <input id="mensajeCifrado"type="text" name="" placeholder="Mensaje cifrado">
+        <input id="mensajeCifrado"type="text" name="" placeholder="Ingresar mensaje a descifrar">
       </div>
 
-      <div id="cleanButton">
-        <button onclick="clean()">Limpiar</button>
+      <div id="cleanSection">
+        <button id="cleanButton">Limpiar</button>
       </div>
 
     </div>
