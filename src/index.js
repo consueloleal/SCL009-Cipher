@@ -38,10 +38,14 @@ function decryptMessage(){
 
 function getMessageToCipher(){
    cifrarMensaje = document.getElementById("cifrarMensaje").value;
+   descifrarMensaje = document.getElementById("mensajeCifrado").value;
+   numberOffset = document.getElementById("offsetText").value;
 }
 
 function getMessageToDecode(){
+   cifrarMensaje = document.getElementById("cifrarMensaje").value;
    descifrarMensaje = document.getElementById("mensajeCifrado").value;
+   numberOffset = document.getElementById("offsetText").value;
 }
 
 function getOffsetText(){
