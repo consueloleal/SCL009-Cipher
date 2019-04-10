@@ -6,13 +6,11 @@ CopionCesar es una aplicación web que permite a los usuarios cifrar y descifrar
 
 ## Descarga e Instalación
 
-Primero debes ingresar a https://github.com/consueloleal/SCL009-Cipher, oprimir el botón de color verde "Clone or download", y después, copiar la url `git@github.com:consueloleal/SCL009-Cipher.git`.
-
-Posteriormente abrir tu consola (terminal) y ejecutar los siguientes comandos:
+Para descargar e instalar abre tu consola (terminal) en tu directorio de proyectos y ejecuta el siguiente comando:
 
 `git clone https://github.com/consueloleal/SCL009-Cipher`
 
-## Ejecutar
+## Ejecutar Aplicación
 
 Para ejecutar la aplicación desde tu computadora una vez descargada e instalada, debes ingresar a la carpeta del proyecto (`SCL009-Cipher`), y posteriormente a la carpeta `src` y ejecutar con un navegador web el archivo `index.html` haciendo doble clic sobre él.
 
